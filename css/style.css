@@ -204,6 +204,10 @@ button {
     padding-top: 100px;
     padding-bottom: 0px;
 }
+.layout_padding1 {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
 
 .padding_0 {
     padding: 0px;
@@ -355,7 +359,7 @@ button {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #ff6a4d;
+    background-color: rgb(255, 76, 40);
     color: #fefefd;
     text-align: center;
     padding: 12px;
@@ -562,11 +566,16 @@ button {
     padding-top: 40px;
 }
 
+.about_section_3 {
+    width: 100%;
+    float: left;
+    padding-top: 350px;
+}
 .about_taital {
     width: 100%;
     float: left;
     font-size: 50px;
-    color: #f75c14;
+    color: #ff5100;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -576,8 +585,8 @@ button {
 .about_taital2 {
     width: 100%;
     float: left;
-    font-size: 40px;
-    color: #3b3b3b;
+    font-size: 50px;
+    color: #221010;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -593,17 +602,17 @@ button {
     box-shadow: 0px 0px 30px 0px;
     position: absolute;
     top: 1550px;
+
 }
-.about_taital_box2 {
+.about_taital_box1 {
     width: 500px;
-    float: left;
+    float: center;
     background-color: #ffffff;
     height: auto;
     padding: 40px 20px 30px 20px;
     box-shadow: 0px 0px 30px 0px;
     position: absolute;
-    top: 300px;
-
+    top: 350px;
 }
 
 .image_iman {
@@ -611,8 +620,13 @@ button {
     position: relative;
 }
 
+.image_iman1 {
+    padding-left: 300px;
+    position: relative;
+}
 .about_img {
     width: 100%;
+  
 }
 
 .about_taital_1 {
@@ -674,7 +688,7 @@ button {
 .client_section {
     width: 100%;
     float: left;
-    background-image: url(../images/client-bg.png);
+    background-image: url(../images/client-bg.jpg);
     height: auto;
     background-size: 100% 100%;
     padding-bottom: 50px;
@@ -711,7 +725,7 @@ button {
     width: 100%;
     float: left;
     font-size: 30px;
-    color: #ff720d;
+    color: #ff2222;
     font-weight: bold;
 }
 
@@ -719,7 +733,7 @@ button {
     width: 75%;
     float: left;
     font-size: 24px;
-    color: #ffffff;
+    color: #f8f1eb;
     margin: 0px;
     font-weight: bold;
 }
@@ -891,6 +905,15 @@ textarea#comment.massage-bt::placeholder {
 /* footer section start */
 
 .footer_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-image: url(../images/footer-bg.jpg);
+    background-size: 100% 100%;
+    padding: 90px 0px 0px 0px;
+    
+}
+.footer_section1 {
     width: 100%;
     float: left;
     height: auto;

@@ -144,7 +144,10 @@
         left: 70px;
     }
     .banner_section {
-        padding: 90px 0px 20px 0px;
+        width: 100%;
+    float: left;
+    padding: 90px 0px 100px 0px;
+
     }
     .header_section {
         background-size: 100% 100%;
@@ -170,11 +173,15 @@
     .about_text {
         font-size: 14px;
     }
-  
     .about_taital_box {
         width: 500px;
         padding: 40px 20px 30px 20px;
         top: 1430px;
+    }
+    .about_taital_box2 {
+        width: 500px;
+        padding: 40px 20px 30px 20px;
+        top: 400px;
     }
     .readmore_btn {
         margin-top: 20px;
@@ -282,8 +289,8 @@
     }
     .navbar-light .navbar-toggler {
         color: #fff;
-        border-color: #fff;
-        background: #fff;
+        border-color: #fb795f;
+        background: #fb795f;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
@@ -317,7 +324,7 @@
         padding-top: 0px;
     }
     .tasty_text {
-        color: #ffffff;
+        color: #ff8b06;
     }
     .about_bt {
         width: 140px;
@@ -360,8 +367,12 @@
         font-size: 15px;
     }
     .client_section {
-        background: rgb(208, 125, 107, 0.6);
-        background-size: cover;
+        width: 100%;
+        float: left;
+        background-image: url(../images/client-bg.jpg);
+        height: auto;
+        background-size: 100% 100%;
+        padding-bottom: 50px;
     }
     .client_left {
         width: 100%;
@@ -413,8 +424,8 @@
     }
     .navbar-light .navbar-toggler {
         color: #fff;
-        border-color: #fff;
-        background: #fff;
+        border-color: #fb795f;
+        background: #fb795f;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         color: #ffffff;
@@ -448,7 +459,7 @@
         padding-top: 0px;
     }
     .tasty_text {
-        color: #ffffff;
+        color:#f38700;
     }
     .about_bt {
         width: 140px;
@@ -491,9 +502,14 @@
         font-size: 15px;
     }
     .client_section {
-        background: rgb(208, 125, 107, 0.6);
-        background-size: cover;
-    }
+     width: 100%;
+    float: left;
+    background-image: url(../images/client-bg.jpg);
+    height: auto;
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+}
+    
     .client_left {
         width: 100%;
         padding-left: 0px;
