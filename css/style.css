@@ -444,13 +444,14 @@ button {
 .coffee_section {
     width: 100%;
     float: left;
+   
 }
 
 .coffee_taital {
     width: 100%;
     float: left;
-    font-size: 40px;
-    color: #3b3b3b;
+    font-size: 55px;
+    color: #070606;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -478,7 +479,7 @@ button {
     width: 100%;
     float: left;
     font-size: 22px;
-    color: #3b3b3b;
+    color: #f59d19;
     text-align: center;
     font-weight: bold;
     padding-top: 20px;
@@ -487,8 +488,8 @@ button {
 .looking_text {
     width: 100%;
     float: left;
-    font-size: 16px;
-    color: #3b3b3b;
+    font-size: 20px;
+    color: #3b2525;
     text-align: center;
     margin: 0px;
 }
@@ -505,10 +506,10 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #f5775e;
+    color: #ff3911;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #e97a64;
+    border: 1px solid #fc401a;
     text-transform: uppercase;
     padding: 8px;
 }
@@ -558,6 +559,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 90px;
+    
 }
 
 .about_section_2 {
@@ -570,6 +572,9 @@ button {
     width: 100%;
     float: left;
     padding-top: 350px;
+   
+    
+
 }
 .about_taital {
     width: 100%;
@@ -612,7 +617,7 @@ button {
     padding: 40px 20px 30px 20px;
     box-shadow: 0px 0px 30px 0px;
     position: absolute;
-    top: 350px;
+    top: 300px;
 }
 
 .image_iman {
@@ -621,13 +626,19 @@ button {
 }
 
 .image_iman1 {
-    padding-left: 300px;
+    padding-left: 200px;
     position: relative;
 }
 .about_img {
     width: 100%;
   
 }
+
+.about_img1 {
+    width: 100%;
+  
+}
+
 
 .about_taital_1 {
     width: 100%;
@@ -804,13 +815,14 @@ button {
 .contact_section {
     width: 100%;
     float: left;
+    background-color: #221010;
 }
 
 .contact_taital {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #252525;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -1052,7 +1064,10 @@ textarea#comment.update_mail::placeholder {
     color: #ffffff;
     font-size: 16px;
     padding: 13px 0px 14px 0px;
-    background-color:#3b1b01;
+    background-color: rgb(54, 22, 0);
+}
+
+
     text-transform: uppercase;
     text-align: center;
 }
